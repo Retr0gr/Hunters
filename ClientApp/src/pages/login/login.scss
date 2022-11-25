@@ -1,0 +1,78 @@
+.login{
+    height: 100vh;
+    background-color: #E6E5A3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 50%;
+        border-radius: 10px;
+        display: flex;
+        min-height: 600px;
+        background-color: white;
+        overflow: hidden;
+        flex-direction: row;
+
+        .left{
+            flex: 1;
+            background: linear-gradient(rgba(125, 143, 105, 0.5),rgba(125, 143, 105, 0.5)), url("https://images.pexels.com/photos/6204497/pexels-photo-6204497.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: whitesmoke;
+
+
+            h1{
+                font-size: 100px;
+                line-height: 100px;
+            }
+            p{ color: white;}
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 40%;
+                padding: 10px;
+                border: none;
+                background-color: #7D8F69;
+                color: whitesmoke;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        .right{
+            display: flex;
+            flex: 1;
+            padding: 50px;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            h1{
+                color: grey;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                    width: 40%;
+                    padding: 10px;
+                    border: none;
+                    background-color: #A9AF7E;
+                    color: whitesmoke;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
